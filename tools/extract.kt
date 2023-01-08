@@ -52,7 +52,7 @@ fun rebuild(data: ByteArray, offset: Int, dev: Int, name: String){
 
 
 fun saveFile(output: ByteArray, name: String){
-    val dir = File("dials")
+    val dir = File("extracted")
     
     if (!dir.exists()){
         dir.mkdirs()
