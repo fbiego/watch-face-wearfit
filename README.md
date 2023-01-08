@@ -14,7 +14,7 @@
 
 ## Tools
 
-The [`extract.kt`](tools/extract.kt) file can be used to rebuild the watchface background
+The [`extract.kt`](tools/extract.kt) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
 
 Compile > `kotlinc extract.kt -include-runtime -d extract.jar`
 
