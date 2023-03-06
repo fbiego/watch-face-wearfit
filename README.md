@@ -14,11 +14,11 @@
 
 ## Tools
 
-The [`extract.kt`](tools/extract.kt) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
+The [`image.jar`](tools/image.jar) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
 
-Compile > `kotlinc extract.kt -include-runtime -d extract.jar`
+Extract > `java -jar image.jar 107_2_dial.bin`
 
-Rebuild > `java -jar extract.jar 107_2_dial.bin 774 0`
+On Windows, you can drag and drop the bin file on [`extract.bat`](tools/extract.bat)
 
 The output can be viewed using [`rawpixels.net`](http://rawpixels.net/) using the following settings:
 
