@@ -2,3 +2,4 @@
 tools/watchface.kt
 tools/extract.jar
 tools/extract.kt
+tools/image.kt
