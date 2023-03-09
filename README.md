@@ -14,17 +14,9 @@
 
 ## Tools
 
-The [`image.jar`](tools/image.jar) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
+The [`watchface.jar`](tools/watchface.jar) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
 
-Extract > `java -jar image.jar 107_2_dial.bin`
+Extract > `java -jar watchface.jar 107_2_dial.bin 240 240`
 
-On Windows, you can drag and drop the bin file on [`extract.bat`](tools/extract.bat)
+On Windows, you can drag and drop the bin file on [`drag-drop.bat`](tools/drag-drop)
 
-The output can be viewed using [`rawpixels.net`](http://rawpixels.net/) using the following settings:
-
-- `240` x `240`
-- `RGB565` format
-- Little Endian enabled
-
-> **Note**
-> experimental tool

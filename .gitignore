@@ -5,3 +5,4 @@ tools/extract.kt
 tools/image.kt
 tools/pack.jar
 tools/pack.kt
+tools/image.jar
