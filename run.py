@@ -27,8 +27,17 @@ for bin_file in bin_files:
     processed_files_path = os.path.join(os.path.dirname(bin_file), "README.md")
 
     # Save the name of the processed file in the processed_files.txt file
-    with open(processed_files_path, "a") as f:
-        f.write(" | "+ os.path.basename(bin_file).replace(".bin", ".png") + " | " + os.path.basename(bin_file) + " | \n")
+    with open(processed_files_path, "a+") as f:
+        # Check if the file is empty
+        f.seek(0)
+        first_char = f.read(1)
+        if not first_char:
+            # If the file is empty, write some header text
+            f.write("# Dials \n\n")
+            f.write(" | Watchface | Binary |  \n")
+            f.write(" | -- | -- |  \n")
+
+        f.write(" | "+ os.path.basename(bin_file).replace(".bin", ".png") + " | " + os.path.basename(bin_file) + " |  \n")
 
 # Save a text file showing all the paths of the generated text files
 text_files = []
