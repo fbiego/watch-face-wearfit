@@ -3,7 +3,7 @@ import subprocess
 
 # Define the paths to the tools directory and the dials directory
 TOOLS_DIR = "tools"
-DIALS_DIR = "test"
+DIALS_DIR = "dials"
 
 # Define the name of the Java jar file to run
 JAR_NAME = "watchface.jar"
@@ -38,7 +38,7 @@ for bin_file in bin_files:
             f.write(" | -- | -- |  \n")
 
         #![1](resources/dt78_app1.png?raw=true "3")
-        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](https://github.com/fbiego/watch-face-wearfit/raw/main/" + os.path.dirname(bin_file)+ "/" + os.path.basename(bin_file) + ") |  \n")
+        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](raw/main/dials/" + os.path.basename(os.path.dirname(bin_file))+ "/" + os.path.basename(bin_file) + ") |  \n")
 
 # Save a text file showing all the paths of the generated text files
 text_files = []
