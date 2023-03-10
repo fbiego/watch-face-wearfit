@@ -7,3 +7,4 @@ tools/pack.jar
 tools/pack.kt
 tools/image.jar
 test/
+*.DS_Store
