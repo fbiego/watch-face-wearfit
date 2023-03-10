@@ -21,7 +21,7 @@ for root, dirs, files in os.walk(os.path.join(os.getcwd(), DIALS_DIR)):
 
 # Process each .bin file and save the name of processed files in a text file
 for bin_file in bin_files:
-    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "280"])
+    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "240"])
 
     # Get the directory of the processed file and create the path for the processed_files.txt file
     processed_files_path = os.path.join(os.path.dirname(bin_file), "README.md")
