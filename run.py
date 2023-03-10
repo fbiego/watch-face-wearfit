@@ -38,7 +38,7 @@ for bin_file in bin_files:
             f.write(" | -- | -- |  \n")
 
         #![1](resources/dt78_app1.png?raw=true "3")
-        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](raw/main" + os.path.basename(bin_file) + ") |  \n")
+        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](raw/main/" + os.path.basename(bin_file) + ") |  \n")
 
 # Save a text file showing all the paths of the generated text files
 text_files = []

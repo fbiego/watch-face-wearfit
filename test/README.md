@@ -2,4 +2,4 @@
 
  | Watchface | Binary |  
  | -- | -- |  
- | 957_2_dial.png | [`957_2_dial.bin`](raw/main957_2_dial.bin) |  
+ | ![watchface](957_2_dial.png?raw=true "watchface") | [`957_2_dial.bin`](raw/main/957_2_dial.bin) |  
