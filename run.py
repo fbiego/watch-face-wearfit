@@ -79,5 +79,5 @@ On Windows, you can drag and drop the bin file on [`drag-drop.bat`](tools/drag-d
 with open("README.md", "w") as f:
     f.write(header)
     for text_file in text_files:
-        f.write("[`" + os.path.dirname(text_file).replace("\\", "/") + "`](" + text_file.replace("\\", "/") + ")\n")
+        f.write(" - [`" + os.path.dirname(text_file).replace("\\", "/") + "`](" + text_file.replace("\\", "/") + ")\n")
     f.write(footer)

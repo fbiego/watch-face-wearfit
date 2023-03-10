@@ -4,8 +4,8 @@
 
  ## Collection
 
-[`test`](test/README.md)
-[`test/other`](test/other/README.md)
+ - [`test`](test/README.md)
+ - [`test/other`](test/other/README.md)
 
 ## Installation
  
