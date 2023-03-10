@@ -14,14 +14,13 @@ for root, dirs, files in os.walk(os.path.join(os.getcwd(), DIALS_DIR)):
     for file in files:
         if file.endswith(".bin"):
             f, e = os.path.splitext(file)
-            if (os.path.exists(os.path.join(root, f + ".png"))):
-                print("image for " + file + " exists")
-            else:
+            if not (os.path.exists(os.path.join(root, f + ".png"))):
+                print("generating image for " + file + " at " + root)
                 bin_files.append(os.path.join(root, file))
 
 # Process each .bin file and save the name of processed files in a text file
 for bin_file in bin_files:
-    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "240"])
+    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "280"])
 
     # Get the directory of the processed file and create the path for the processed_files.txt file
     processed_files_path = os.path.join(os.path.dirname(bin_file), "README.md")

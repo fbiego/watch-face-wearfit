@@ -3,7 +3,6 @@
  | Watchface | Binary |  
  | -- | -- |  
  | ![watchface](905_2_dial.png?raw=true "watchface") | [`905_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW22+/905_2_dial.bin) |  
- | ![watchface](1179_2_dial.png?raw=true "watchface") | [`1179_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW22+/1179_2_dial.bin) |  
  | ![watchface](335_2_dial.png?raw=true "watchface") | [`335_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW22+/335_2_dial.bin) |  
  | ![watchface](357_2_dial.png?raw=true "watchface") | [`357_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW22+/357_2_dial.bin) |  
  | ![watchface](360_2_dial.png?raw=true "watchface") | [`360_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW22+/360_2_dial.bin) |  
