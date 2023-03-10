@@ -1,8 +1,13 @@
 # watch-face-wearfit
  
  A collection of watch face binary files.
- 
- ## Installation
+
+ ## Collection
+
+[`test`](test\README.md)
+[`test\other`](test\other\README.md)
+
+## Installation
  
  They can be installed using Chronos app
  
