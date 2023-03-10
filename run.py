@@ -21,7 +21,7 @@ for root, dirs, files in os.walk(os.path.join(os.getcwd(), DIALS_DIR)):
 
 # Process each .bin file and save the name of processed files in a text file
 for bin_file in bin_files:
-    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "240"])
+    subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "280"])
 
     # Get the directory of the processed file and create the path for the processed_files.txt file
     processed_files_path = os.path.join(os.path.dirname(bin_file), "README.md")
@@ -38,7 +38,7 @@ for bin_file in bin_files:
             f.write(" | -- | -- |  \n")
 
         #![1](resources/dt78_app1.png?raw=true "3")
-        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](raw/main/" + os.path.basename(bin_file) + ") |  \n")
+        f.write(" | ![watchface]("+ os.path.basename(bin_file).replace(".bin", ".png") + "?raw=true \"watchface\") | [`" + os.path.basename(bin_file) + "`](https://github.com/fbiego/watch-face-wearfit/raw/main/" + os.path.dirname(bin_file)+ "/" + os.path.basename(bin_file) + ") |  \n")
 
 # Save a text file showing all the paths of the generated text files
 text_files = []
