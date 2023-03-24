@@ -4,6 +4,7 @@
 
  ## Collection
 
+ - [`dials/D18Max`](dials/D18Max/README.md)
  - [`dials/HW22+`](dials/HW22+/README.md)
  - [`dials/mibro_air`](dials/mibro_air/README.md)
  - [`dials/others`](dials/others/README.md)
