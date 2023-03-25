@@ -5,13 +5,13 @@
  ## Collection
 
  - [`dials/D18Max`](dials/D18Max/README.md)
+ - [`dials/HW19`](dials/HW19/README.md)
+ - [`dials/HW21`](dials/HW21/README.md)
+ - [`dials/HW22`](dials/HW22/README.md)
  - [`dials/HW22+`](dials/HW22+/README.md)
  - [`dials/mibro_air`](dials/mibro_air/README.md)
  - [`dials/others`](dials/others/README.md)
- - [`dials/HW22`](dials/HW22/README.md)
  - [`dials/X8Ultra`](dials/X8Ultra/README.md)
- - [`dials/HW21`](dials/HW21/README.md)
- - [`dials/HW19`](dials/HW19/README.md)
 
 ## Installation
  
