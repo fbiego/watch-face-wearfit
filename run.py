@@ -18,6 +18,7 @@ for root, dirs, files in os.walk(os.path.join(os.getcwd(), DIALS_DIR)):
                 print("generating image for " + file + " at " + root)
                 bin_files.append(os.path.join(root, file))
 
+bin_files.sort()
 # Process each .bin file and save the name of processed files in a text file
 for bin_file in bin_files:
     subprocess.call(["java", "-jar", os.path.join(TOOLS_DIR, JAR_NAME), bin_file, "240", "240"])
