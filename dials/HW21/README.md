@@ -26,3 +26,4 @@
  | ![watchface](86_2_dial.png?raw=true "watchface") | [`86_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW21/86_2_dial.bin) |  
  | ![watchface](96_2_dial.png?raw=true "watchface") | [`96_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW21/96_2_dial.bin) |  
  | ![watchface](98_2_dial.png?raw=true "watchface") | [`98_2_dial.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW21/98_2_dial.bin) |  
+ | ![watchface](107_2_dial-patched-rus.png?raw=true "watchface") | [`107_2_dial-patched-rus.bin`](https://github.com/fbiego/watch-face-wearfit/raw/main/dials/HW21/107_2_dial-patched-rus.bin) |  
