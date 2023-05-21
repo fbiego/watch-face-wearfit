@@ -26,9 +26,10 @@
 
 ## Tools
 
-The [`watchface.jar`](tools/watchface.jar) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.
+~~The [`watchface.jar`](tools/watchface.jar) file can be used to rebuild the watchface background for the purpose of viewing only. Modifying the background is not yet possible for use as a watch face.~~
 
-Extract > `java -jar watchface.jar 107_2_dial.bin 240 240`
+~~Extract > `java -jar watchface.jar 107_2_dial.bin 240 240`~~
 
-On Windows, you can drag and drop the bin file on [`drag-drop.bat`](tools/drag-drop)
+~~On Windows, you can drag and drop the bin file on [`drag-drop.bat`](tools/drag-drop)~~
 
+The latest version of Chronos (v2.4.0) allows you to extract binary watchfaces. When extracting, the watchface resources will be saved as images. If you make any edits to these images, you can then pack them back into a binary watchface.
