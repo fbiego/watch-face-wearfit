@@ -14,6 +14,10 @@
  - [`dials/X5Pro`](dials/X5Pro/README.md)
  - [`dials/X8Ultra`](dials/X8Ultra/README.md)
 
+## Compatibilities 
+- HW22+ and D18Max dials tested and working for HW57 Pro.
+- Do not try to install X8Ultra dials in HW57 Pro; this will reboot your watch in loop.
+
 ## Installation
  
  They can be installed using Chronos app
