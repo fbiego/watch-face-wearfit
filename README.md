@@ -14,6 +14,12 @@
  - [`dials/X5Pro`](dials/X5Pro/README.md)
  - [`dials/X8Ultra`](dials/X8Ultra/README.md)
 
+## Other sources
+
+- [`Chronos in-app online watchfaces`](https://fbiego.com/chronos/dials)
+- [`4PDA forum - Watch faces for the Chronos app`](https://4pda.to/forum/index.php?showtopic=1075503)
+
+
 ## Compatibilities 
 - HW22+ and D18Max dials tested and working for HW57 Pro.
 - Do not try to install X8Ultra dials in HW57 Pro; this will reboot your watch in loop.
@@ -22,7 +28,7 @@
  
  They can be installed using Chronos app
  
- <a href='https://play.google.com/store/apps/details?id=com.fbiego.chronos&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height="100px" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+ <a href='https://play.google.com/store/apps/details?id=com.fbiego.chronos'><img alt='Get it on Google Play' height="100px" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
 
 > **Warning**
