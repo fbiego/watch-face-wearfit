@@ -9,6 +9,7 @@
  - [`dials/HW21`](dials/HW21/README.md)
  - [`dials/HW22`](dials/HW22/README.md)
  - [`dials/HW22+`](dials/HW22+/README.md)
+ - [`dials/M16mini`](dials/M16mini/README.md)
  - [`dials/mibro_air`](dials/mibro_air/README.md)
  - [`dials/others`](dials/others/README.md)
  - [`dials/X5Pro`](dials/X5Pro/README.md)
@@ -27,6 +28,7 @@
 
 > **Warning**
 > Install faces at your own risk as they may not be compatible with your watch
+
 
 ## Tools
 

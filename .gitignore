@@ -7,4 +7,6 @@ tools/pack.jar
 tools/pack.kt
 tools/image.jar
 test/
+dials/M16mini/*
+dials/X9Ultra/
 *.DS_Store
