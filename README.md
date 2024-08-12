@@ -17,7 +17,7 @@
 
 ## Other sources
 
-- [`Chronos in-app online watchfaces`](https://fbiego.com/chronos/dials)
+- [`Chronos online watchfaces`](https:chronos.ke/dials)
 - [`4PDA forum - Watch faces for the Chronos app`](https://4pda.to/forum/index.php?showtopic=1075503)
 
 
@@ -38,4 +38,13 @@
 
 ## Tools
 
-The latest version of Chronos (v2.4.0) allows you to extract binary watchfaces. When extracting, the watchface resources will be saved as images. If you make any edits to these images, you can then pack them back into a binary watchface.
+Chronos v2.4.0+ allows you to extract binary watchfaces. When extracting, the watchface resources will be saved as images. If you make any edits to these images, you can then pack them back into a binary watchface.
+
+- Extract the resources to a folder
+`java -jar imager.jar 24_2_dial.bin`
+
+- Create a watch face preview image from a bin file
+`java -jar watchface.jar 24_2_dial.bin`
+
+- Resize the dial. Specify the original and final size (by width)
+`py resizer.pyc 24_2_dial.bin 240 360`
